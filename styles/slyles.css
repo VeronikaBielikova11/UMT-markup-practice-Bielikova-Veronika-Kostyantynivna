@@ -1,0 +1,114 @@
+@import './reset.css';
+@import './colors.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.navigation_list {
+  font-size: 16px;
+}
+
+.explore_bouquets_button {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 100px;
+  background: var(--button_bg);
+}
+
+.main_title {
+  font-family: 'Hanuman', sans-serif;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: -1%;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.section_title {
+  font-family: 'Hanuman', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -1%;
+}
+
+.explore_our_bouquets_button {
+  padding: 10px 24px;
+}
+
+.section_subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0%;
+}
+
+.bouquet_description {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.arrow_button {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  gap: 8px;
+  opacity: 1;
+  border-radius: 100px;
+  border-width: 1px;
+}
+
+.client_name {
+  font-size: 16px;
+}
+
+.show_more_button {
+  width: 406px;
+  height: 44px;
+  padding: 10px 24px;
+}
+
+.contacts {
+  font-family: Hanuman;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -1%;
+}
+
+.number {
+  font-size: 16px;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+}
+.store {
+  font-size: 16px;
+  letter-spacing: 0%;
+}
+
+.footer {
+  width: 1440px;
+  height: 419px;
+  background-color: var(--footer_bg);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
